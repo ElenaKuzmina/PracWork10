@@ -35,8 +35,8 @@ namespace PracWork10
         {
             try // обработка исключения
             {
-                // Получаем номер выделенной строки
-                int index = lstInput.SelectedIndex;
+            // Получаем номер выделенной строки
+            int index = lstInput.SelectedIndex;
             // Считываем строку в перменную str
             string str = (string)lstInput.Items[index];
             // Узнаем количество символов в строке
